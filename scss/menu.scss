@@ -1,0 +1,104 @@
+$height:100px;
+.main-menu-conteiner{
+    width: 100%;
+    height: $height*15;
+    background: url("../img/bg_4.jpg");
+}
+.main-menu-text-center{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h1{
+        color: white;
+    }
+    h3{
+        color: $color-greyText;
+    }
+}
+.menu-pizza-conteiner{
+    width: 100%;
+    height: $height*2.3;
+    display: flex;
+}
+.menu-pizza{
+    width: 33%;
+    height: $height*2.3;
+    display: flex;
+    img{
+        width: $height*2.22;
+        height: $height*2.3;
+    }
+}
+.menu-pizza-text{
+    margin-left: 15px;
+    h3{
+        color: white;
+    }
+    p{
+        color: $color-greyText;
+    }
+}
+.menu-pizza-text-order{
+    display: flex;
+    align-items: center;
+    h2{
+        margin: 10px;
+        color: $color-yellow;
+        font-size: 24px; 
+    }
+    a{
+        border: 1px solid $color-yellow;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        &:hover{
+            background-color: $color-yellow;            
+            cursor: pointer;
+        }
+    }
+}
+.main-our-menu{
+    width: 100%;
+    height: $height*6.6;
+}
+.main-our-menu-conteiner{
+    width: 100%;
+    display: flex;
+}
+
+.main-our-menu-conteiner-iconText{
+    display: flex;
+    width: 50%;
+    height: 150px;
+    margin-top: 10px;
+    img{
+        width: $height*1.5;
+        height: $height*1.5;
+    }
+}
+.main-our-menu-conteiner-icon{
+    width: 30%;
+}
+.main-our-menu-conteiner-Text{
+    width: 70%;
+    h3{
+        color: $color-greyText;
+        margin: 5px;
+    }
+    #doter{
+        color: $color-yellow;
+    }
+}
+.main-our-menu-conteiner-Text-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    #namePizza{
+        color: white;
+        font-style: italic;
+    }
+    #price{
+        color: $color-yellow;
+    }
+}

@@ -1,0 +1,97 @@
+$heigh: 100px;
+.main-about{ 
+  
+    width: 100%;
+    height: $heigh*6;
+    background: url("../img/bg_4.jpg");
+}
+.main-about-work{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: $heigh*2;   
+}
+.main-about-time-work{
+    width: 70%;
+    h3{
+        text-align: center;
+        margin: 0;
+        color: $color-greyText;
+    }
+
+}
+.main-about-work-reapet{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-about-socseti-work{
+    width: 25%;
+    background-color: $color-orange;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    img{
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+.main-about-time-work-text{
+    display: flex;
+    h1{
+        margin-left: 5px;
+        font-size: 20px;
+        color: white;
+    }
+    img{        
+        position: relative;
+        top: 15px;
+        width: 20px;
+        height: 20px;
+    }
+}
+.main-about-restaurant{
+    width: 100%;
+    height: $heigh*4;    
+    display: flex;
+}
+.main-about-restaurant-icon{
+    width: 50%;
+    //border: 2px solid red;
+    img{
+        width: 650px;
+        height: $heigh*4;
+    }
+}
+.main-about-restaurant-text{
+    width: 50%; 
+    padding-left: 60px;
+    p{
+        padding-top: 40px;
+        color: $color-greyText;
+    }
+    
+        
+}
+.main-about-restaurant-text-p{
+    width: 100%;
+    display: flex;  
+    padding-top: 50px;
+    img{
+        width: 20px;
+        height: 20px
+    }
+    h1{        
+        margin: 5px;
+        font-size: 30px;
+        color: white;
+    }
+    h2{
+        margin: 5px;
+        font-size: 30px;
+        color: $color-orange;
+    }
+}

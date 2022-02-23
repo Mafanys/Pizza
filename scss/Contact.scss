@@ -1,0 +1,55 @@
+$height: 100px;
+.main-contact-conteiner{
+    width: 100%;
+    height: $height*5;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-contact-map{   
+    width: 50%;
+    iframe{
+        width: $heigh*6.5;
+        height: $height*5;
+    }
+}
+.main-contact{
+    width: 50%;
+    color: white;
+    h1{
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    form{
+        width: 100%;
+        label{
+            margin: 15px;
+            display: block;
+            font-size: 18px;            
+        }
+        
+        #text{
+            width: 60%;
+            margin: 15px;
+            display: block;
+            background: black;
+            border: 0px;
+            border-bottom: 2px solid white;
+            color: white;
+            font-size: 18px;  
+        }
+        #btn{
+            margin: 15px;
+            width: 100px;
+            height: $height/2;
+            background-color: $color-yellow;
+            font-size: 24px;
+            color: white;
+            border-radius: 50%;   
+            &:hover{
+                background-color: red;
+            }         
+        }
+        
+    }
+}

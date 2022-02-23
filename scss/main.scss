@@ -1,0 +1,21 @@
+$color-yellow: #ffd700;
+$color-greyBG: #1f2022;
+$color-greyText: #808080;
+$color-orange: #ffa500;
+
+
+@import "home.scss";
+@import "Services.scss";
+@import "blog.scss";
+@import "about.scss";
+@import "Contact.scss";
+@import "menu.scss";
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+

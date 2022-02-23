@@ -1,0 +1,25 @@
+.main-about {
+  width: 100%;
+  height: 1000px;
+  background: url("../img/bg_4.jpg");
+}
+
+.main-about-work {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+.main-about-time-work {
+  width: 59%;
+  border: 1px solid blue;
+}
+
+.main-about-socseti-work {
+  width: 40%;
+  border: 1px solid red;
+}
+/*# sourceMappingURL=about.css.map */

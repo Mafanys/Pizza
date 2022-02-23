@@ -1,0 +1,54 @@
+$heiht: 100px;
+.main-blog{
+    width: 100%;
+    height: $heiht*7;
+    background: url("../img//bg_4.jpg");
+}
+.main-blog-text{
+    text-align: center;
+    padding-top: 50px;
+    h1{
+        color: white;
+    }
+    h3{
+        color: $color-greyText;
+    }
+}
+.main-blog-feetback{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-feetback{
+    width: 30%;
+    height: $heiht*4.5;
+    padding-top: 40px;
+     
+    h2{
+        color: white;
+    }
+    h3{
+        color: $color-greyText;
+    }
+    img{
+        width: $heiht*4;
+        height: $heiht*3;
+    }
+}
+.blog-feetback-fig{
+    display: flex;
+    flex-wrap: wrap;
+    h3{
+        margin: 0;
+        font-size: 14px;
+        color: $color-greyText;
+    }
+    img{
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 15px;
+        height: 15px;
+    }
+    
+}

@@ -1,0 +1,28 @@
+$heiht: 100px;
+.main-Service{
+    width: 100%;
+    height: $heiht*7;
+    background: url("../img/food.png");
+}
+.main-serv-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.main-service-food{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main-service-class-food{
+    width: 25%;
+    height: $heiht*3 + 50;
+    padding-top: 40px;
+    
+    text-align: center;
+    
+    img{
+        width: $heiht*2;
+        height: $heiht*2;
+    }
+}
